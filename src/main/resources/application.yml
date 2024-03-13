@@ -1,0 +1,10 @@
+
+spring:
+  main:
+    web-application-type: none
+
+# app-specific params
+app:
+  inbox:
+    baseUrl: https://candidate.hubteam.com/candidateTest/v3/problem
+    apiKey: 5082b8d177ba546b6c4958b09bb8 #  in production grade app, the key will be stored in a key store
